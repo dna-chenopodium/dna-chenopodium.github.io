@@ -24,6 +24,13 @@ img {
 if (window.location.hostname === "quinoa.chenopodium.org") {
   window.location.replace("https://chenopodium.netlify.app/?config=test_data%2Fquinoa.json");
 }
+if (["nuttalliae.chenopodium.org", "huazontle.chenopodium.org", "huazontles.chenopodium.org"].includes(window.location.hostname)) {
+  window.location.replace("https://chenopodium.netlify.app/?config=test_data%2Fnuttalliae.json");
+}
+if (["pallidicaule.chenopodium.org", "canihua.chenopodium.org"].includes(window.location.hostname)) {
+  window.location.replace("https://chenopodium.netlify.app/?config=test_data%2Fpallidicaule.json");
+}
+
     </script>
   </head>
   <body>
